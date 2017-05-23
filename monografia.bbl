@@ -1,0 +1,39 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {gamma1995design}
+\btxnamefont {\btxlastnamefont {Gamma}, Erich}\btxauthorcolon\ \btxtitlefont
+  {Design patterns: elements of reusable object-oriented software}.
+\newblock \btxpublisherfont {Pearson Education India}, 1995.
+
+\bibitem {alexander1977pattern}
+\btxnamefont {\btxlastnamefont {Alexander}, Christopher}, \btxnamefont {Sara
+  \btxlastnamefont {Ishikawa}}, \btxnamefont {Murray \btxlastnamefont
+  {Silverstein}}, \btxnamefont {Joaquim\btxfnamespacelong Romaguera
+  i~\btxlastnamefont {Rami{\'o}}}, \btxnamefont {Max \btxlastnamefont
+  {Jacobson}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Ingrid
+  \btxlastnamefont {Fiksdahl-King}}\btxauthorcolon\ \btxtitlefont {A pattern
+  language}.
+\newblock \btxpublisherfont {Gustavo Gili}, 1977.
+
+\bibitem {oliveira2001proposta}
+\btxnamefont {\btxlastnamefont {Oliveira}, No{\'e}\btxfnamespacelong de}
+  \btxetalfont {\btxetalshort {.}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Uma proposta para a avali{\c{c}}{\~a}o de software
+  educacional}{Uma proposta para a avali{\c{c}}{\~a}o de software
+  educacional}}.
+\newblock 2001.
+
+\end{thebibliography}
