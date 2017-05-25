@@ -3,51 +3,48 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: monografia.aux
 The style file: babunsrt.bst
 Database file #1: bibliografia.bib
-Warning--I didn't find a database entry for "brandao1998repensand"
-Warning--I didn't find a database entry for "ppginf"
-Warning--I didn't find a database entry for "covey_first_1995"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in gamma1995design
 Warning--empty journal in oliveira2001proposta
-You've used 3 entries,
+You've used 4 entries,
             2465 wiz_defined-function locations,
-            599 strings with 5929 characters,
-and the built_in function-call counts, 794 in all, are:
-= -- 45
-> -- 32
+            601 strings with 6110 characters,
+and the built_in function-call counts, 974 in all, are:
+= -- 59
+> -- 36
 < -- 0
-+ -- 12
-- -- 9
-* -- 90
-:= -- 103
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 1
++ -- 14
+- -- 10
+* -- 105
+:= -- 130
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 55
-empty$ -- 92
-format.name$ -- 26
-if$ -- 163
+cite$ -- 6
+duplicate$ -- 68
+empty$ -- 115
+format.name$ -- 28
+if$ -- 204
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 6
-newline$ -- 28
-num.names$ -- 3
-pop$ -- 25
+int.to.str$ -- 4
+missing$ -- 8
+newline$ -- 32
+num.names$ -- 4
+pop$ -- 30
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 13
+skip$ -- 18
 stack$ -- 0
 substring$ -- 0
-swap$ -- 23
+swap$ -- 27
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 3
-width$ -- 4
-write$ -- 41
-(There were 5 warnings)
+while$ -- 4
+width$ -- 5
+write$ -- 50
+(There were 2 warnings)
