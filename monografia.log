@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.21)  25 MAY 2017 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.5.21)  25 MAY 2017 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1128,7 +1128,7 @@ LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <20> not available
 LaTeX Font Warning: Font shape `T1/ua1/bx/n' in size <20> not available
 (Font)              size <20.74> substituted on input line 43.
 
-<img/positivo_cor.pdf, id=64, 119.44624pt x 60.225pt>
+<img/positivo_cor.pdf, id=72, 119.44624pt x 60.225pt>
 File: img/positivo_cor.pdf Graphic file (type pdf)
 
 <use img/positivo_cor.pdf>
@@ -1236,6 +1236,16 @@ text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
 text indent calculated (toc, 0): 13.5pt
 number indent calculated (toc, 0): 0.0pt
+number indent by \l@... (toc, 1):  17.62474pt
+text indent by \l@... (toc, 1):  27.02464pt
+number indent by parent (toc, 1):  13.5pt
+text indent calculated (toc, 1): 20.88887pt
+number indent calculated (toc, 1): 13.5pt
+number indent by \l@... (toc, 2):  44.64938pt
+text indent by \l@... (toc, 2):  37.59943pt
+number indent by parent (toc, 2):  34.38887pt
+text indent calculated (toc, 2): 30.02785pt
+number indent calculated (toc, 2): 34.38887pt
 number indent by \l@... (toc, 0):  0.0pt
 text indent by \l@... (toc, 0):  17.62474pt
 number indent by parent (toc, 0):  0.0pt
@@ -1327,7 +1337,12 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 4.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 47.
-(./tex/4_edesign_patterns.tex)
+(./tex/4_edesign_patterns.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 1.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 48.
 Package babel Info: Redefining portuges shorthand "|
@@ -1349,7 +1364,12 @@ Package babel Info: Redefining portuges shorthand "|
 Cap\'{\i }tulo 6.
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 49.
-(./tex/6_Conclusao.tex)
+(./tex/6_Conclusao.tex
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 3.
+Package babel Info: Redefining portuges shorthand "|
+(babel)             in language  on input line 5.
+)
 Package babel Info: Redefining portuges shorthand "|
 (babel)             in language  on input line 53.
 Package babel Info: Redefining portuges shorthand "|
@@ -1396,8 +1416,8 @@ Package rerunfilecheck Warning: File `monografia.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `monografia.out':
-(rerunfilecheck)             Before: 90843FA40F312A412C5BEB19C6F46D35;821
-(rerunfilecheck)             After:  DEDFA23C77E52EF3112F8370F19EAE65;824.
+(rerunfilecheck)             Before: A72A2E94E034948134A82576EF4A3F98;954
+(rerunfilecheck)             After:  19236AE0BC3D4CB1D73405B79ECD9082;1104.
 Package rerunfilecheck Info: File `monografia.brf' has not changed.
 (rerunfilecheck)             Checksum: BC79639840772DB136282389ED5D792A;204.
 
@@ -1407,17 +1427,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  )
 (\end occurred when \iffalse on line 120 was incomplete) 
 Here is how much of TeX's memory you used:
- 15814 strings out of 493013
- 254261 string characters out of 6136993
- 418488 words of memory out of 5000000
- 18939 multiletter control sequences out of 15000+600000
+ 15820 strings out of 493013
+ 254346 string characters out of 6136993
+ 418495 words of memory out of 5000000
+ 18941 multiletter control sequences out of 15000+600000
  53437 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  52i,6n,69p,1942b,410s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1432,10 +1449,10 @@ ve/2016/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><p:/texlive/2016/texmf-dist
 /fonts/type1/public/lm/lmtt12.pfb><p:/texlive/2016/texmf-dist/fonts/type1/publi
 c/lm/lmtti10.pfb><p:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm10
 00.pfb><p:/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on monografia.pdf (16 pages, 186266 bytes).
+Output written on monografia.pdf (16 pages, 187055 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 193 compressed objects within 2 object streams
- 42 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 206 compressed objects within 3 object streams
+ 46 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 
