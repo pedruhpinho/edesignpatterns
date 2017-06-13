@@ -45,4 +45,22 @@
   educacional}}.
 \newblock 2001.
 
+\bibitem {madden2006riding}
+\btxnamefont {\btxlastnamefont {Madden}, Mary} \btxandlong {}\ \btxnamefont
+  {Susannah \btxlastnamefont {Fox}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Riding the waves of ‘web 2.0’}{Riding the waves of
+  ‘Web 2.0’}}.
+\newblock \btxjournalfont {Pew internet and American life project}, 5, 2006.
+
+\bibitem {kim2007best}
+\btxnamefont {\btxlastnamefont {Kim}, Soojung}, \btxnamefont
+  {Jung\btxfnamespacelong Sun \btxlastnamefont {Oh}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Sanghee \btxlastnamefont {Oh}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Best-answer selection criteria in a social
+  q\&a site from the user-oriented relevance perspective}{Best-answer selection
+  criteria in a social Q\&A site from the user-oriented relevance
+  perspective}}.
+\newblock \btxjournalfont {Proceedings of the American Society for Information
+  Science and Technology}, 44(1):1--15, 2007.
+
 \end{thebibliography}

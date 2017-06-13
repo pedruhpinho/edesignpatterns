@@ -3,48 +3,49 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: monografia.aux
 The style file: babunsrt.bst
 Database file #1: bibliografia.bib
+Warning--I didn't find a database entry for "shah2008explorin"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in gamma1995design
 Warning--empty journal in oliveira2001proposta
-You've used 4 entries,
+You've used 6 entries,
             2465 wiz_defined-function locations,
-            601 strings with 6110 characters,
-and the built_in function-call counts, 974 in all, are:
-= -- 59
-> -- 36
+            615 strings with 6505 characters,
+and the built_in function-call counts, 1503 in all, are:
+= -- 99
+> -- 55
 < -- 0
-+ -- 14
-- -- 10
-* -- 105
-:= -- 130
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 2
++ -- 21
+- -- 15
+* -- 172
+:= -- 201
+add.period$ -- 12
+call.type$ -- 6
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 68
-empty$ -- 115
-format.name$ -- 28
-if$ -- 204
+cite$ -- 8
+duplicate$ -- 101
+empty$ -- 174
+format.name$ -- 43
+if$ -- 317
 int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 8
-newline$ -- 32
-num.names$ -- 4
-pop$ -- 30
+int.to.str$ -- 6
+missing$ -- 12
+newline$ -- 40
+num.names$ -- 6
+pop$ -- 36
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 18
+skip$ -- 30
 stack$ -- 0
-substring$ -- 0
-swap$ -- 27
+substring$ -- 16
+swap$ -- 41
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 4
-width$ -- 5
-write$ -- 50
-(There were 2 warnings)
+while$ -- 8
+width$ -- 7
+write$ -- 70
+(There were 3 warnings)
