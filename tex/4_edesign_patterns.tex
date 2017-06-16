@@ -1,13 +1,48 @@
-\section{Processo de Desenvolvimento}
+Conforme abordado no Capítulo 4, o uso de design Patterns por programadores em determinado contexto no projeto de softwares não é tarefa trivial e, na maioria das vezes, requer um certo nível de experiência. Além de conhecer os padrões disponíveis, os desenvolvedores devem saber identificar em qual contexto aquela solução se aplica. O aplicativo e-Design Patterns foi idealizado justamente para minimizar esses requisitos de experiência, buscando facilitar o entendimento sobre o conceito de DesignPatterns, os padrões disponíveis e e como aplica-los em seus projetos. O e-Design Patterns é um protótipo de aplicativo para Smartphone no molde das plataformas sociais de Perguntas e Respostas.
 
-O processo de desenvolvimento foi constituído basicamente por 3 etapas: Wireframe, design e prototipação
+\section{Processo de Software}
+
+Em um projeto de software, é necessário seguir um conjunto de passos, que servem como um roteiro para direcionar o rumo do desenvolvimento e para que o resultado tenha alta qualidade. Segundo Pressman, o processo de software é uma metodologia para as atividades, ações e tarefas necessárias para desenvolver um software de alta qualidade[citar]. Existem vários modelos de processo, e a escolha de um deve ser adotado de acordo com o software a ser desenvolvido e os requisitos levantados, mas é certo que todos o modelos proporcionam no processo de desenvovimento do software algum grau de estabilidade, controle e organização, e algo que pode se tornar muito complexo.[citar]
+
+\subsection{Modelo Evolucionário}
+
+O modelo de processo evolucionário, é uma abordagem interativa, onde é possível desenvolver versões de software cada vez mais completas com base em versões iniciais. Essa abordagem é muito utilizada, pois permite o desenvolvimento do software  mesmo com todas as mudanças que podem ocorrer nos requisitos, regras de negócio, funcionalidades etc. Essas mudanças durante o processo impedem que o desenvolvimento siga um planejamento linear, por isso o modelo evolucionário permite a criação de versões do software com base no que já foi estabelecido e essas versões servem como ponto de partida para a continuação do software até o produto final.Segundo Pressman existem dois modelos comum em processos evolucionários, a Prototipação, que foi o modelo escolhido para a construção do e-DesignPatterns e, o modelo espiral. 
+
+
+\begin{itemize}
+	\item Considerando o aumento dos custos para desenvolvimento de softwares e o crescente número de sistemas construídos que falharam em satisfazere as necessidade dos clientes, as organizaçõe estão utilizando cada vez mais a prototipação. A prototipação é  uma implementação parcial de um sistema que serve para que clientes e desenvolvedores aprendam mais sobre o produto final, ou seja, possibilita uma melhor compreensão das necessidades que devem ser atendidas. Um protótipo permite que clientes avaliem o que já foi desenvolvido até o momento e fornecam um retorno (feedback) que servirá para aprimorar os requisitos até que seja alcançado o software final. 
+\end{itemize}
+
+\section{Prototipação do e-DesignPatterns}
+
+O processo de prototipação do e-DesignPatterns passou por 4 etapas:
+
+\begin{enumerate}
+	\item Brainstorming: Nessa primeira etapa o grupo de desenvolvimento se reuniu e fez o leventamento de todas as idéias para o software. Além do levantamento de requisitos, foram tratadas questões de design, estratégias de implementação, delagação de tarefas, roteiro de desenvovimentos, metas, público alvo e ferramentas a serem utilizadas. 
+	\item Produção de Wireframes: Na segunda etapa, todas a idéias levantadas no brainstorming formam utilizadas na produção dos wireframes, ou seja, esboços das principais telas do aplicativo que visam estabelecer as melhores estratégias para que a experiência do usuário com o software (UX) sejam as melhores possíveis: usabilidade, acessibilidade e prazer proporcionado na interação entre o usuário e o produto. O grupo optou em realizar o desenvolvimento dos wireframes em papel como estratégia de acelerar o processo e não ter que utilizar mais um software de apoio. Não foram criados wireframes para todas as telas, somente para as principais. Como estratégia de poupar tempo, os wireframes foram desenvovidos somente para as telas que ofereciam um maior desafio.
+	\item Design das telas: Nesta etapa, com base nos wireframes desenvolvidos e nas estratégias estabelecidas, utilizamos a ferramenta Figma para design final de todas a telas, inclusive aquelas que não tiveram wireframes relacionados. 
+	\item Interação entre as telas: Na quarta e última etapa, utilizamos uma ferramenta de design como o figma, mas que também permite criar interações entre as telas, o Marvel. As telas desenvovidas no Figma, na 3 terceira etapa, foram exportadas para arquivos no formato .png e em seguida foram importadas para o Marvel, que foi utilizado para criar as devidas interações entre as telas
+\end{enumerate}
+
 
 \section{Ferramentas Utilizadas}
 
+As seguintes ferramentas forma utilizadas no projeto do e-DesignPatterns, tanto para a prototipação do aplicativo como para comunicação e organização.
+
 \subsection{Slack}
+Slack[citar] é um ferramenta colaborativa que permite a comunicação entre usuários de um grupo (time) de maneira fácil e interessante. Para utilizar a plataforma basta criar um time e convidar outros participantes para compo-lo. Alem da comunicação por mensagens em tempo real a ferramenta também permite a criação de canais que podem ser utilizados para que os usuários do time tratem de assuntos diferentes. Diversas outras funcionalidades são oferecidas pela plataforma, uma muito interessante é a possibilidade da integração com outras ferramentas, como o gitHub e o Marvel.  A ferramenta também oferece notificações instantâneas sobre atividades realizadas no grupo, permite mensagens privadas, compartilhamento de arquivos entre outros funcionalidades.
 
 \subsection{Git e GitHub}
 
+Git é um sistema de controle de versões distribuídas e gerenciamento de código, com ênfase em velocidade. É a ferramenta lider no mercado, pois é extremamente eficiente e robusta. Para utilizá-lo é preciso criar um repositório local ou remoto onde os arquivos serão armazenados e versionados de acordo com cada utilização. Para este trabalho, escolhemos utilizar um repositório remoto para que todos os integrantes do grupo tivessem acesso. O repositório escolhido foi o GitHub, também muito eficiente e de larga utilização A opção por um repositório remoto foi fetia para que todos os componentes do grupo tivessem acesso. Nesse repositório armazenamos os arquivos latex do trabalho escrito.
+
 \subsection{Figma}
 
+Figma é uma ferramenta online de design de interface e que permite colaboração em tempo real. A ferramenta disponibiliza a criação de times para o desenvolvimento colaborativo de interfaces, oferece controle de versões e designs responsivos entre várias outras funcionalidades.
+
+
 \subsection{Marvel}
+
+Marvel é um ferramenta colaborativa de design e prototipação e está disponível para web e smartphones. Oferece ferramentas para criação de telas mas também permite importar imagens do Sketch ou Photoshop, além de permitir a sincronização com cloud storages. Sua simples interface de edição permite lincar todos os designs juntos e adicionar gesture e transiçoes para tornar o seu prototipo fiel com um aplicativo real ou um website.
+
+\section{Telas e suas funcionalidades}
