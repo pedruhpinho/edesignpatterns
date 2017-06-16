@@ -1,0 +1,32 @@
+\select@language {american}
+\select@language {american}
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Objetivos}{2}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Objetivo Geral}{2}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Objetivos Espec\IeC {\'\i }ficos}{2}{subsection.1.1.2}
+\contentsline {section}{\numberline {1.2}Organiza\IeC {\c c}\IeC {\~a}o do Texto}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Design Patterns}{4}{chapter.2}
+\contentsline {chapter}{\numberline {3}Plataformas Q\&A}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Breve Hist\IeC {\'o}rico}{5}{section.3.1}
+\contentsline {section}{\numberline {3.2}Estrat\IeC {\'e}gias e caracter\IeC {\'\i }sticas}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}StackOverFlow}{7}{section.3.3}
+\contentsline {chapter}{\numberline {4}e-Design Patterns}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Processo de Software}{8}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Modelo Evolucion\IeC {\'a}rio}{8}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Prototipa\IeC {\c c}\IeC {\~a}o do e-DesignPatterns}{9}{section.4.2}
+\contentsline {section}{\numberline {4.3}Ferramentas Utilizadas}{10}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Slack}{10}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Git e GitHub}{10}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Figma}{10}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Marvel}{11}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Telas e suas funcionalidades}{11}{section.4.4}
+\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{12}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Conclus\IeC {\~a}o}{13}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Trabalhos Futuros}{13}{subsection.6.1.1}
+\contentsline {chapter}{Refer\^encias}{14}{section*.6}
+\select@language {american}
+\select@language {american}
+\select@language {american}
+\select@language {brazil}
