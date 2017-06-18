@@ -1,1 +1,44 @@
-Desenvolvimento Design Patterns
+Com o crescimento exponencial do desenvolvimento de softwares ao redor do mundo, uma crescente necessidade dentro da Engenharia de Software é a de Padrões de Projeto (Design Patterns). Podemos a definir brevemente como uma estrutura reusável de uso geral para se resolver problemas recorrentes que se enfrenta ao desenvolver um software. Os padrões de projeto ajudam os desenvolvedores a estruturarem melhor suas idéias, e os dão um poder organizacional coerente e necessário, principalmente em projetos de maior proporção. Também são consideradas boas práticas de programação ao se desenvolver uma aplicação, por fornecerem um template da qual podemos usufruir para tornar um sistema escalável e manutenível.
+
+Os padrões de projeto são de tamanha importância que essa abstração se encontra no intermédio do paradigma da linguagem de programação em questão, e do algoritmo de fato. Ela é um template em cima da sua solução de problema, ou seja, do problema que queremos resolver algoritmicamente, e do modo que a faremos utilizando a linguagem de programação escolhida. Portanto, essa é uma área bastante ampla dentro da Engenharia de Software. Diferentes paradigmas de programação possuem diferentes padrões de projeto, e o modo como as pensamos e enxergamos pode mudar drásticamente de uma para outra. Tomemos como exemplo o paradigma de Orientação a Objeto, e vemos que os padrões já estabelecidos como boas práticas raciocinam pensando na relação e interação entre as classes / objetos e na mutabilidade que eles sofrem na aplicação, enquanto no paradigma funcional sabemos que qualquer padrão que envolva mutabilidade não caberia para seus projetos. O paradigma funcional adota conceitos avançados em relação a padrões de projeto, envolvendo composição de funções, e a técnica de Currying, que o permite transformar uma função de múltiplos argumentos para que ela possa ser chamada como uma sequência de execução de funções separadas com um único argumento. De qualquer forma, para todo projeto dentro da engenharia de software e para todo paradigma que se adote, existe essa abstração muito importante do padrão de projeto para se pensar sobre.
+
+Como foi uma área que cresceu rapidamente, ocorreu o surgimento de três categorias: os padrões criacionais, estruturais e comportamentais.
+
+\subsection{Criacional}
+Os padrões de projetos criacionais visam obter controle sobre os mecanismos de criação dos objetos. A forma básica de instanciação leva a problemas de design ou a uma complexidade desnecessária na arquitetura do projeto, e os padrões criacionais tentam resolver esse problema. Eles são rodeados entre duas grandes idéias: a de se encapsular o conhecimento sobre quais classes concretas o sistema usa, e a outra é desativando e ativando as instâncias com base em como elas são criadas, utilizadas e acopladas. Alguns dos padrões criacionais mais famosos são:
+
+\begin{itemize}
+	\item Abstract Factory: disponibiliza a um cliente um conjunto de objetos relacionados ou dependentes. A família de objetos criados é determinada em tempo de execução.
+	\item Builder: é usado para criar objetos complexos constituídos de partes que serão criadas em ordem ditada por um algoritmo. 
+	\item Factory Method: é usado para substituir construtores de classe, abstraindo o processo de geração de um tipo instanciado de tal maneira que pode ser determinado em tempo de execução.
+	\item Prototype: é usado para instanciar um novo objeto copiando todas as propriedades de um objeto existente, criando um clone independente. É uma prática muito útil quando a construção de um novo objeto é ineficiente.
+	\item Singleton: garante que apenas um objeto de uma classe é instanciado. Todas as futuras referencias desses objetos se referem apenas a instancia criada.
+\end{itemize}
+
+
+\subsection{Estrutural}
+
+\begin{itemize}
+	\item Adapter: Faz um link entre dois tipos incompatíveis envelopando uma adaptação com a classe que suporta uma interface necessária para um cliente.
+	\item Bridge: Separa elementos abstratos de uma classe dos detalhes da implementação, disponibilizando meio de trocar detalhes da implementação sem modificar a abstração.
+	\item Composite: é usado para criar hierarquia, árvore de objetos relacionados com estruturas recursivas onde qualquer elemento da estrutura pode ser acessado e utilizado de alguma maneira.
+	\item Decorator: é usado para estender ou alterar funcionalidade de objetos em tempo de execução envelopando-os em um objeto de uma classe decorator.
+	\item Facade: é usado para definir uma interface simplificada para um subsistema mais complexo.
+	\item Flyweight: é usado para reduzir memória e utilização de recurso para modelos complexos contendo milhares de objetos similares.
+\end{itemize}
+
+
+\subsection{Comportamental}
+
+\begin{itemize}
+	\item Chain of Responsibility: é usado para processar variadas requisições, cada uma pode ser tratada por um diferente handler.
+	\item Command: é usado para expressar uma requisição, incluindo a chamada a ser feita e todos os seus parâmetros necessários e um objeto ordenado. Pode ser sincronizado ou assíncrono. 
+	\item Interpreter: é usado para definir a gramáticas para instruções que são parte de uma linguagem ou notação, enquanto facilita que a linguagem seja estendida.
+	\item Iterator: é usado para disponibilizar uma interface padrão para atravessar uma coleção de itens em um objeto agregador sem a necessidade de entender a estrutura por trás.
+	\item Mediator: é usado para reduzir o acoplamento entre classes que se comunicam umas com as outras. Ao invés de classes se comunicarem diretamente, sendo necessário que uma saiba sobre a implementação da outra, as classes enviam mensagens umas para as outras através do objeto mediador.
+	\item Memento: é usado para capturar o estado atual de um objeto e amazena-lo de tal maneira que pode ser restaurado posteriormente sem quebrar nenhuma regra de encapsualmento. 
+	\item Observer: é usado para permitir que objetos publiquem alterações de estados. Outros objetos sub-escrevem para serem imediatamente notificados de qualquer mudanças.
+	\item State: é usado para alterar o comportamento de um objeto e suas mudanças de estados internas. State permite que a classe para um objeto altere em tempo de execução.
+	\item Strategy: é usado para criar uma familia de algoritmo compartilháveis onde os processos necessários são escolhidos em tempo de execução
+	\item Template Method: é usado para definir passos básicos para um algoritmo permitir a implementação de passos individuais a serem alterados.
+\end{itemize}
