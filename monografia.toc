@@ -29,9 +29,9 @@
 \contentsline {subsection}{\numberline {4.5.4}Marvel}{15}{subsection.4.5.4}
 \contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{15}{section.4.6}
 \contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{16}{section.5.1}
 \contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{17}{chapter.6}
-\contentsline {section}{\numberline {6.1}Conclus\IeC {\~a}o}{17}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Trabalhos Futuros}{17}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{17}{subsection.6.0.1}
 \contentsline {chapter}{Refer\^encias}{18}{section*.6}
 \select@language {american}
 \select@language {american}
