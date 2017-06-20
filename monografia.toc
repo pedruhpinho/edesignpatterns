@@ -19,21 +19,21 @@
 \contentsline {chapter}{\numberline {4}e-Design Patterns}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1} Motiva\IeC {\c c}\IeC {\~a}o}{12}{section.4.1}
 \contentsline {section}{\numberline {4.2}Descri\IeC {\c c}\IeC {\~a}o do Aplicativo}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Core Features}{13}{subsection.4.2.1}
+\contentsline {subsubsection}{Platafoma Q\&A}{13}{section*.6}
+\contentsline {subsubsection}{Tags}{13}{section*.7}
+\contentsline {subsubsection}{Reputa\IeC {\c c}\IeC {\~a}o}{13}{section*.8}
+\contentsline {subsection}{\numberline {4.2.2}Features desej\IeC {\'a}veis}{13}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Processo de Software}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Modelo Evolucion\IeC {\'a}rio}{13}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Modelo Evolucion\IeC {\'a}rio}{14}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}Prototipa\IeC {\c c}\IeC {\~a}o do e-DesignPatterns}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Ferramentas Utilizadas}{14}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Slack}{14}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Git e GitHub}{15}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Figma}{15}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Marvel}{15}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{15}{section.4.6}
-\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{16}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{16}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{17}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{17}{subsection.6.0.1}
-\contentsline {chapter}{Refer\^encias}{18}{section*.6}
-\select@language {american}
-\select@language {american}
-\select@language {american}
-\select@language {brazil}
+\contentsline {section}{\numberline {4.5}Ferramentas Utilizadas}{15}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Slack}{15}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Git e GitHub}{16}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Figma}{16}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Marvel}{16}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{16}{section.4.6}
+\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{17}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{18}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{18}{subsection.6.0.1}

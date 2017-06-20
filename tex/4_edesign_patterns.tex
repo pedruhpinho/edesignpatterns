@@ -8,22 +8,42 @@ Em nossa pesquisa, não encontramos um aplicativo ou sistema parecido com o que 
 Buscamos fornecer com o nosso aplicativo um ambiente onde o usuário possa consultar sucintamente o conteúdo que desejar e interagir com o sistema de forma inteligente e perguntar a usuários mais experientes e tirar dúvidas específicas.
 
 \section{Descrição do Aplicativo}
-O projeto do nosso aplicativo visa resolver essa carência descrita acima, e mudar o jeito como programadores e estudantes de computação interagem com essa temática dos design patterns. Desejamos que seja fácil reconhecer e aplicar os padrões para o seu caso de uso, ajudando a comunidade a encontrar as melhores soluções pros seus contextos específicos.
+O projeto do nosso aplicativo visa resolver essa carência descrita acima, e mudar o jeito como programadores e estudantes de computação interagem com essa temática dos design patterns. Desejamos que seja fácil reconhecer e aplicar os padrões para o seu caso de uso, ajudando a comunidade a encontrar as melhores soluções pros seus contextos específicos. Além de criar uma plataforma para a interação de usuários envolvidos em padrões de projeto, nos atentamos a tornar o nosso software um software dito educacional, conceitualmente. Por isso, pensamos nas funcionalidades necessárias para atender os nossos objetivos.
+
+A plataforma reuniria programadores e entusiastas em padrões de projeto em um lugar feito especialmente com esse propósito, de se discutir e consultar conteúdos nessa temática. Teríamos conteúdos atualizados sobre os diversos ramos dos padrões de projeto; perguntas classificadas por tags para facilitar sua busca e indexação; interatividade entre os usuários; classificação de respostas e reputação dos usuários; conteúdo alimentado pelos próprios usuários...
+
+As possibilidades são muitas.
+
+\begin{itemize}
+	\item User Story \#1: 
+
+	Eu, programador de uma empresa de software, estou tomando as decisões iniciais de como começar nosso novo projeto. Irei lidar com várias instâncias de classes que gerenciarão o comportamento do sistema, e sei que não posso de maneira alguma ter mais de uma instância viva de cada classe dentro do meu programa. Estamos programando em Java, e não sei muito bem como organizar a arquitetura do nosso projeto para este fim.
+\end{itemize}
+
+
 
 \subsection{Core Features}
 
-Definiremos aqui as principais funcionalidades para a plataforma eDesignPatterns funcionar do jeito que foi concebida. Realizamos, com orientação da Profa. Dra. Letícia, que deveríamos nos atentar como a plataforma se tornaria um ecosistema sustentável, com garantia da qualidade do conteúdo alimentado pelos usuários, e que motivasse a volta dos usuários.
+Definiremos aqui as principais funcionalidades para a plataforma eDesignPatterns funcionar do jeito que foi concebida. Realizamos, com orientação da Profa. Dra. Letícia, que deveríamos nos atentar como a plataforma se tornaria um ecosistema sustentável, com garantia da qualidade do conteúdo alimentado pelos usuários, e que motivasse a volta dos mesmos.
 
-Com essas três funcionalidades, concebidas durante a concepção do nosso projeto, teríamos uma base funcional para a plataforma, que nos proveria interação entre os usuários, organização dos conteúdos por assuntos e interesses do usuário, e uma espécie de gamificação através da reputação dos usuários.
+Com essas funcionalidades, concebidas durante a concepção do nosso projeto, teríamos uma base funcional para a plataforma, que nos proveria interação entre os usuários, organização dos conteúdos por assuntos e interesses do usuário, e uma espécie de gamificação através da reputação dos usuários.
 
 \subsubsection{Platafoma Q\&A}
-Como vimos no Capítulo 3, uma grande tendência da web participativa são as  plataformas de pergunta e resposta. São uma poderosa forma de organizar pessoas e organizar o conteúdo produzido por elas.  
+Como vimos no Capítulo 3, uma grande tendência da web participativa são as  plataformas de pergunta e resposta. São uma poderosa forma de organizar pessoas e organizar o conteúdo produzido por elas. Gera uma grande interatividade entre os usuários, que podem continuar uma discussão no post da questão discorrendo sobre várias ideias, até que a melhor resposta ou solução venha a tona e ganhe destaque no post.
 \subsubsection{Tags}
+O sistema de tags possibilitaria ao sistema a organização de conteúdo por setores independentes, e ao de classificar uma pergunta/resposta com todas as tags ali englobadas.
 
-\subsubsection{Reputação}
+Isso classificaria as questões da aplicação de forma eficiente e abrangente, pois muitas vezes uma mesma pergunta engloba tópicos de diversas áreas diferentes. Como uma pergunta pode ter várias tags, não ficamos restrito a unicidade de classificação de uma pergunta.
+\subsubsection{Reputação e Rating}
+Para termos confiabilidade de que a resposta dos colaboradores esteja correta e com conteúdo de qualidade, necessitamos de algum mecanismo que classifique os usuários e as respostas, respectivamente, de acordo com suas contribuições.
+
+A reputação é a funcionalidade que validaria a trajetória dos nossos usuários. Com base nas contribuições e na colaboração provida por alguém, os outros usuários podem avalia-lo, aumentando ou diminuindo a reputação em questão. 
+
+O rating diz respeito a melhor resposta pra tal questão. Como é comum nas plataformas Q\&A, principalmente em programação, ocorre de uma questão ter várias respostas igualmente certas de diferentes abordagens.
 
 \subsection{Features desejáveis}
 
+\subsubsection{Submissão de conteúdo por usuários comuns}
 
 \section{Processo de Software}
 
@@ -44,7 +64,7 @@ O processo de prototipação do e-DesignPatterns passou por 4 etapas:
 
 \begin{enumerate}
 	\item Brainstorming: Nessa primeira etapa o grupo de desenvolvimento se reuniu e fez o leventamento de todas as idéias para o software. Além do levantamento de requisitos, foram tratadas questões de design, estratégias de implementação, delagação de tarefas, roteiro de desenvovimentos, metas, público alvo e ferramentas a serem utilizadas. 
-	\item Produção de Wireframes: Na segunda etapa, todas a idéias levantadas no brainstorming formam utilizadas na produção dos wireframes, ou seja, esboços das principais telas do aplicativo que visam estabelecer as melhores estratégias para que a experiência do usuário com o software (UX) sejam as melhores possíveis: usabilidade, acessibilidade e prazer proporcionado na interação entre o usuário e o produto. O grupo optou em realizar o desenvolvimento dos wireframes em papel como estratégia de acelerar o processo e não ter que utilizar mais um software de apoio. Não foram criados wireframes para todas as telas, somente para as principais. Como estratégia de poupar tempo, os wireframes foram desenvovidos somente para as telas que ofereciam um maior desafio.
+	\item Produção de Wireframes: Na segunda etapa, todas a idéias levantadas no brainstorming foram utilizadas na produção dos wireframes, ou seja, esboços das principais telas do aplicativo que visam estabelecer as melhores estratégias para que a experiência do usuário com o software (UX) sejam as melhores possíveis: usabilidade, acessibilidade e prazer proporcionado na interação entre o usuário e o produto. O grupo optou em realizar o desenvolvimento dos wireframes em papel como estratégia de acelerar o processo e não ter que utilizar mais um software de apoio. Não foram criados wireframes para todas as telas, somente para as principais. Como estratégia de poupar tempo, os wireframes foram desenvovidos somente para as telas que ofereciam um maior desafio.
 	\item Design das telas: Nesta etapa, com base nos wireframes desenvolvidos e nas estratégias estabelecidas, utilizamos a ferramenta Figma para design final de todas a telas, inclusive aquelas que não tiveram wireframes relacionados. 
 	\item Interação entre as telas: Na quarta e última etapa, utilizamos uma ferramenta de design como o figma, mas que também permite criar interações entre as telas, o Marvel. As telas desenvovidas no Figma, na 3 terceira etapa, foram exportadas para arquivos no formato .png e em seguida foram importadas para o Marvel, que foi utilizado para criar as devidas interações entre as telas.
 \end{enumerate}
@@ -52,7 +72,7 @@ O processo de prototipação do e-DesignPatterns passou por 4 etapas:
 
 \section{Ferramentas Utilizadas}
 
-As seguintes ferramentas forma utilizadas no projeto do e-DesignPatterns, tanto para a prototipação do aplicativo como para comunicação e organização.
+As seguintes ferramentas foram utilizadas no projeto do e-DesignPatterns, tanto para a prototipação do aplicativo como para comunicação e organização.
 
 \subsection{Slack}
 Slack \cite{slack} é um ferramenta colaborativa que permite a comunicação entre usuários de um grupo (time) de maneira fácil e interessante. Para utilizar a plataforma basta criar um time e convidar outros participantes para compo-lo. Alem da comunicação por mensagens em tempo real a ferramenta também permite a criação de canais que podem ser utilizados para que os usuários do time tratem de assuntos diferentes. Diversas outras funcionalidades são oferecidas pela plataforma, uma muito interessante é a possibilidade da integração com outras ferramentas, como o gitHub e o Marvel.  A ferramenta também oferece notificações instantâneas sobre atividades realizadas no grupo, permite mensagens privadas, compartilhamento de arquivos entre outros funcionalidades.
