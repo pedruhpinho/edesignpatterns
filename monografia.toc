@@ -16,27 +16,33 @@
 \contentsline {section}{\numberline {3.3}StackExchange}{10}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}StackOverflow}{10}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}API}{11}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}e-Design Patterns}{12}{chapter.4}
+\contentsline {chapter}{\numberline {4}eDesignPatterns}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1} Motiva\IeC {\c c}\IeC {\~a}o}{12}{section.4.1}
 \contentsline {section}{\numberline {4.2}Descri\IeC {\c c}\IeC {\~a}o do Aplicativo}{13}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Core Features}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.1}Core Features}{14}{subsection.4.2.1}
 \contentsline {subsubsection}{Platafoma Q\&A}{14}{section*.6}
 \contentsline {subsubsection}{Tags}{14}{section*.7}
-\contentsline {subsubsection}{Reputa\IeC {\c c}\IeC {\~a}o e Rating}{14}{section*.8}
-\contentsline {subsubsection}{Conte\IeC {\'u}do de Design Patterns}{14}{section*.9}
-\contentsline {subsection}{\numberline {4.2.2}Features desej\IeC {\'a}veis}{15}{subsection.4.2.2}
+\contentsline {subsubsection}{Reputa\IeC {\c c}\IeC {\~a}o e Rating}{15}{section*.8}
+\contentsline {subsubsection}{Conte\IeC {\'u}do de Design Patterns}{15}{section*.9}
+\contentsline {subsection}{\numberline {4.2.2}Features Desej\IeC {\'a}veis}{15}{subsection.4.2.2}
 \contentsline {subsubsection}{Submiss\IeC {\~a}o de conte\IeC {\'u}do por usu\IeC {\'a}rios comuns}{15}{section*.10}
-\contentsline {subsubsection}{Exerc\IeC {\'\i }cios interativos sobre o conte\IeC {\'u}do}{15}{section*.11}
-\contentsline {section}{\numberline {4.3}Processo de Software}{15}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Modelo Evolucion\IeC {\'a}rio}{15}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Prototipa\IeC {\c c}\IeC {\~a}o do e-DesignPatterns}{16}{section.4.4}
-\contentsline {section}{\numberline {4.5}Ferramentas Utilizadas}{17}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Slack}{17}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Git e GitHub}{17}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Figma}{17}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Marvel}{17}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{18}{section.4.6}
-\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{19}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{20}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{20}{subsection.6.0.1}
+\contentsline {subsubsection}{Exerc\IeC {\'\i }cios interativos sobre o conte\IeC {\'u}do}{16}{section*.11}
+\contentsline {section}{\numberline {4.3}Acessibilidade}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}Processo de Software}{16}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Modelo Evolucion\IeC {\'a}rio}{16}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Prototipa\IeC {\c c}\IeC {\~a}o do eDesignPatterns}{17}{section.4.5}
+\contentsline {section}{\numberline {4.6}Ferramentas Utilizadas}{18}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Slack}{18}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Git e GitHub}{18}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Figma}{18}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Marvel}{18}{subsection.4.6.4}
+\contentsline {section}{\numberline {4.7}Telas e suas funcionalidades}{19}{section.4.7}
+\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{20}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{20}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{22}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{22}{subsection.6.0.1}
+\contentsline {chapter}{Refer\^encias}{23}{section*.12}
+\select@language {american}
+\select@language {american}
+\select@language {american}
+\select@language {brazil}

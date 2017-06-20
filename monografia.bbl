@@ -1,0 +1,135 @@
+\begin{thebibliography}{10}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {stack}
+\btxtitlefont {\btxifchangecase {Stackoverflow}{StackOverFlow}}.
+\newblock \url{https://pt.stackoverflow.com}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {guj}
+\btxtitlefont {\btxifchangecase {Guj}{GUJ}}.
+\newblock \url{http://www.guj.com.br/}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {gamma1995design}
+\btxnamefont {\btxlastnamefont {Gamma}, Erich}\btxauthorcolon\ \btxtitlefont
+  {Design patterns: elements of reusable object-oriented software}.
+\newblock \btxpublisherfont {Pearson Education India}, 1995.
+
+\bibitem {alexander1977pattern}
+\btxnamefont {\btxlastnamefont {Alexander}, Christopher}, \btxnamefont {Sara
+  \btxlastnamefont {Ishikawa}}, \btxnamefont {Murray \btxlastnamefont
+  {Silverstein}}, \btxnamefont {Joaquim\btxfnamespacelong Romaguera
+  i~\btxlastnamefont {Rami{\'o}}}, \btxnamefont {Max \btxlastnamefont
+  {Jacobson}}\btxandcomma {} \btxandlong {}\ \btxnamefont {Ingrid
+  \btxlastnamefont {Fiksdahl-King}}\btxauthorcolon\ \btxtitlefont {A pattern
+  language}.
+\newblock \btxpublisherfont {Gustavo Gili}, 1977.
+
+\bibitem {brandao1998repensando}
+\btxnamefont {\btxlastnamefont {Brand{\~a}o}, Edemilson\btxfnamespacelong
+  Jorge\btxfnamespacelong Ramos}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Repensando modelos de avalia{\c{c}}{\~a}o de software
+  educacional}{Repensando modelos de avalia{\c{c}}{\~a}o de software
+  educacional}}.
+\newblock \btxjournalfont {3{\textordmasculine} Simp{\'o}sio de
+  Investiga{\c{c}}{\~a}o e desenvolvimento de software educativo}, 1998.
+
+\bibitem {oliveira2001proposta}
+\btxnamefont {\btxlastnamefont {Oliveira}, No{\'e}\btxfnamespacelong de}
+  \btxetalfont {\btxetalshort {.}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Uma proposta para a avali{\c{c}}{\~a}o de software
+  educacional}{Uma proposta para a avali{\c{c}}{\~a}o de software
+  educacional}}.
+\newblock 2001.
+
+\bibitem {wikisoftwaredesign}
+\btxjtitlefont {\btxifchangecase {Software design patterns}{Software Design
+  Patterns}}.
+\newblock \btxjournalfont {Wikipedia}, 2015.
+
+\bibitem {madden2006riding}
+\btxnamefont {\btxlastnamefont {Madden}, Mary} \btxandlong {}\ \btxnamefont
+  {Susannah \btxlastnamefont {Fox}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Riding the waves of ‘web 2.0’}{Riding the waves of
+  ‘Web 2.0’}}.
+\newblock \btxjournalfont {Pew internet and American life project}, 5, 2006.
+
+\bibitem {kim2007best}
+\btxnamefont {\btxlastnamefont {Kim}, Soojung}, \btxnamefont
+  {Jung\btxfnamespacelong Sun \btxlastnamefont {Oh}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {Sanghee \btxlastnamefont {Oh}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Best-answer selection criteria in a social
+  q\&a site from the user-oriented relevance perspective}{Best-answer selection
+  criteria in a social Q\&A site from the user-oriented relevance
+  perspective}}.
+\newblock \btxjournalfont {Proceedings of the American Society for Information
+  Science and Technology}, 44(1):1--15, 2007.
+
+\bibitem {duolingo}
+\btxtitlefont {\btxifchangecase {Duolingo}{Duolingo}}.
+\newblock \url{https://pt.duolingo.com/}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {pressman2016engenharia}
+\btxnamefont {\btxlastnamefont {Pressman}, Roger} \btxandlong {}\ \btxnamefont
+  {Bruce \btxlastnamefont {Maxim}}\btxauthorcolon\ \btxtitlefont {Engenharia de
+  Software-8{\textordfeminine} Edi{\c{c}}{\~a}o}.
+\newblock \btxpublisherfont {McGraw Hill Brasil}, 2016.
+
+\bibitem {davis1992operational}
+\btxnamefont {\btxlastnamefont {Davis}, Alan\btxfnamespacelong
+  M}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Operational prototyping:
+  A new development approach}{Operational prototyping: A new development
+  approach}}.
+\newblock \btxjournalfont {IEEE software}, 9(5):70--78, 1992.
+
+\bibitem {slack}
+\btxtitlefont {\btxifchangecase {Slack}{Slack}}.
+\newblock \url{https://slack.com}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {git}
+\btxtitlefont {\btxifchangecase {Git}{Git}}.
+\newblock \url{https://git-scm.com}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {figma}
+\btxtitlefont {\btxifchangecase {Figma}{Figma}}.
+\newblock \url{https://www.figma.com/}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {marvel}
+\btxtitlefont {\btxifchangecase {Marvel}{Marvel}}.
+\newblock \url{https://marvelapp.com/}.
+\newblock acessado em 10/06/2017.
+
+\bibitem {rocha2008avaliaccao}
+\btxnamefont {\btxlastnamefont {Rocha}, Ana\btxfnamespacelong Regina}
+  \btxandlong {}\ \btxnamefont {Gilda\btxfnamespacelong H\btxfnamespacelong
+  Bernardino de~\btxlastnamefont {Campos}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Avalia{\c{c}}{\~a}o da qualidade de software
+  educacional}{Avalia{\c{c}}{\~a}o da qualidade de software educacional}}.
+\newblock \btxjournalfont {Em Aberto}, 12(57), 2008.
+
+\bibitem {vieira1999avaliaccao}
+\btxnamefont {\btxlastnamefont {Vieira}, F{\'a}bia\btxfnamespacelong
+  Magali\btxfnamespacelong Santos}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Avalia{\c{c}}{\~a}o de software educativo: reflex{\~o}es
+  para uma an{\'a}lise criteriosa}{Avalia{\c{c}}{\~a}o de software educativo:
+  reflex{\~o}es para uma an{\'a}lise criteriosa}}.
+\newblock \btxjournalfont {Acesso em}, 13, 1999.
+
+\end{thebibliography}

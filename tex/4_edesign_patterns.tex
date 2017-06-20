@@ -1,4 +1,4 @@
-Conforme abordado no Capítulo 4, o uso de design Patterns por programadores em determinado contexto no projeto de softwares não é tarefa trivial e, na maioria das vezes, requer um certo nível de experiência. Além de conhecer os padrões disponíveis, os desenvolvedores devem saber identificar em qual contexto aquela solução se aplica. O aplicativo e-Design Patterns foi idealizado justamente para minimizar esses requisitos de experiência, buscando facilitar o entendimento sobre o conceito de DesignPatterns, os padrões disponíveis e e como aplica-los em seus projetos. O e-Design Patterns é um protótipo de aplicativo para smartphone, tablets e browser no molde das plataformas sociais de Perguntas e Respostas.
+Conforme abordado no Capítulo 4, o uso de design patterns por programadores em determinado contexto no projeto de softwares não é tarefa trivial e, na maioria das vezes, requer um certo nível de experiência. Além de conhecer os padrões disponíveis, os desenvolvedores devem saber identificar em qual contexto aquela solução se aplica. O aplicativo eDesignPatterns foi idealizado justamente para minimizar esses requisitos de experiência, buscando facilitar o entendimento sobre o conceito de padrões de projeto, os padrões disponíveis e e como aplica-los em seus projetos. O eDesignPatterns é um protótipo de aplicativo para smartphone, tablets e browser no molde das plataformas sociais de Perguntas e Respostas.
 
 \section{ Motivação}
 Desenvolvedores enfrentam uma problemática prática em muitos de seus dias de trabalho. Seja por falta de experiência, ou por estarem enfrentando desafios novos, muitas vezes não é claro qual padrão de projeto é mais adequado à solução do problema em vigor.
@@ -10,14 +10,23 @@ Buscamos fornecer com o nosso aplicativo um ambiente onde o usuário possa consu
 \section{Descrição do Aplicativo}
 O projeto do nosso aplicativo visa resolver essa carência descrita acima, e mudar o jeito como programadores e estudantes de computação interagem com essa temática dos design patterns. Desejamos que seja fácil reconhecer e aplicar os padrões para o seu caso de uso, ajudando a comunidade a encontrar as melhores soluções pros seus contextos específicos. Além de criar uma plataforma para a interação de usuários envolvidos em padrões de projeto, nos atentamos a tornar o nosso software um software dito educacional, conceitualmente. Por isso, pensamos nas funcionalidades necessárias para atender os nossos objetivos.
 
-A plataforma reuniria programadores e entusiastas em padrões de projeto em um lugar feito especialmente com esse propósito, de se discutir e consultar conteúdos nessa temática. Teríamos conteúdos atualizados sobre os diversos ramos dos padrões de projeto; perguntas classificadas por tags para facilitar sua busca e indexação; interatividade entre os usuários; classificação de respostas e reputação dos usuários; conteúdo alimentado pelos próprios usuários...
+A plataforma reuniria programadores e entusiastas em padrões de projeto em um lugar feito especialmente com esse propósito, de se discutir e consultar conteúdos nessa temática. Teríamos conteúdos atualizados sobre os diversos ramos dos padrões de projeto; perguntas classificadas por tags para facilitar sua busca e indexação; interatividade entre os usuários; classificação de respostas e reputação dos usuários; conteúdo alimentado pelos próprios usuários; milestones no aprendizado do usuário, etc. As possibilidades são muitas.
 
-As possibilidades são muitas.
+Descreveremos brevemente alguns casos em que um usuário se motivaria a abrir o nosso aplicativo.
 
 \begin{itemize}
 	\item User Story \#1: 
 
 	Eu, programador de uma empresa de software, estou tomando as decisões iniciais de como começar nosso novo projeto. Irei lidar com várias instâncias de classes que gerenciarão o comportamento do sistema, e sei que não posso de maneira alguma ter mais de uma instância viva de cada classe dentro do meu programa. Estamos programando em Java, e não sei muito bem como organizar a arquitetura do nosso projeto para este fim.
+
+	\textit{O usuário então abriria o nosso aplicativo, e consultaria os conteúdos disponívels sobre padrões de projeto. Caso ainda reste alguma dúvida, ele poderia contextualizar o seu problema mais a fundo abrindo uma pergunta, e interagindo com usuários mais experientes para esclarecer o assunto}
+
+\newpage
+	\item User Story \#2: 
+
+	Eu, estudante de ciência da computação, atualmente cursando a matéria de Engenharia de Software nesse semestre, desejo esclarecer algumas dúvidas pertinentes relativas aos diferentes padrões de projeto presentes no paradigma orientado a objeto.
+
+	\textit{O usuário consultaria a sessão de conteúdo da plataforma, e poderia estudar sobre os três diferentes tipos de padrões presentes nesse paradigma: o criacionista, o estrutural e o comportamental. Caso ainda reste alguma dúvida, essa poderia ser levada para uma nova pergunta na plataforma Q\&A}
 \end{itemize}
 
 
@@ -35,21 +44,35 @@ O sistema de tags possibilitaria ao sistema a organização de conteúdo por set
 
 Isso classificaria as questões da aplicação de forma eficiente e abrangente, pois muitas vezes uma mesma pergunta engloba tópicos de diversas áreas diferentes. Como uma pergunta pode ter várias tags, não ficamos restrito a unicidade de classificação de uma pergunta.
 \subsubsection{Reputação e Rating}
-Para termos confiabilidade de que a resposta dos colaboradores esteja correta e com conteúdo de qualidade, necessitamos de algum mecanismo que classifique os usuários e as respostas, respectivamente, de acordo com suas contribuições.
+Para termos confiabilidade de que a resposta dos colaboradores esteja correta e com conteúdo de qualidade, necessitamos de algum mecanismo que classifique os usuários e as respostas, respectivamente, de acordo com suas contribuições. Para montarmos essa base inicialmente, pensamos em integrar com a API do StackExchange \cite{stack} e pegarmos as reputações iniciais por lá, até termos uma base de dados própria e independente que fosse capaz de julgar as contribuições de cada usuário.
 
 A reputação é a funcionalidade que validaria a trajetória dos nossos usuários. Com base nas contribuições e na colaboração provida por alguém, os outros usuários podem avalia-lo, aumentando ou diminuindo a reputação em questão. 
 
-O rating diz respeito a melhor resposta pra tal questão. Como é comum nas plataformas Q\&A, principalmente em programação, ocorre de uma questão ter várias respostas igualmente certas de diferentes abordagens. Com essa feature, permitiríamos que os próprios usuários classificassem a resposta que melhor atendeu as suas necessidades.
+O rating diz respeito a melhor resposta pra tal questão. Como é comum nas plataformas Q\&A, principalmente em programação, ocorre de uma questão ter várias respostas igualmente certas de diferentes abordagens. Com essa feature, permitiríamos que os próprios usuários classifiquem a resposta que melhor atendeu as suas necessidades.
 
 \subsubsection{Conteúdo de Design Patterns}
-A fim de caracterizarmo-nos como um aplicativo educacional, disponibilizaríamos um conteúdo pragmático, atualizado e completo sobre design patterns, disponível aos usuários para consultas rápidas e eficientes. Além de explicarmos o conteúdo, teríamos exemplificações em diferentes linguagens para consolidar melhor o conteúdo na cabeça do usuário.
+Para caracterizarmo-nos ainda mais como um aplicativo educacional, disponibilizaríamos um conteúdo pragmático, atualizado e completo sobre design patterns, disponível aos usuários para consultas rápidas e eficientes. Além de explicarmos o conteúdo, teríamos exemplificações em diferentes linguagens para consolidar melhor o conteúdo na cabeça do usuário.
 
-\subsection{Features desejáveis}
+\subsection{Features Desejáveis}
 Com as core features implementadas e devidamente testadas, poderíamos começar a expandir nossa ideia inicial do aplicativo, adicionando novas features para melhorar o aprendizado do aluno, assim como engajando-o de diferentes maneiras.
 
 \subsubsection{Submissão de conteúdo por usuários comuns}
 Uma forma que pensamos para aumentar a interatividade do usuário com a plataforma seria termos uma seção de conteúdo alimentado pelos próprios usuários. Design patterns é uma área muito mutável e sujeito a constantes inovações, criando-se diferentes formas de organizar projetos a todo tempo. 
+
+Uma nova forma de impulsionar essas novas tendências seria através do aplicativo, permitindo que usuários submetessem conteúdo próprio em padrões de projeto, que seria analisado por uma equipe experiente responsável pelo conteúdo do aplicativo, e aprovaria ou não a publicação do mesmo.
+
 \subsubsection{Exercícios interativos sobre o conteúdo}
+Além de termos o conteúdo presente no aplicativo, teríamos exercícios de cada um deles para fixar melhor o conteúdo no aprendizado do aluno. Poderíamos fornecer milestones, que motivaria o usuário a estudar os conteúdos e adquirir méritos por ter completado-os, e feito seus exercícios. Essa gamificação se mostrou muito eficiente em outros aplicativos educacionais estudados, como o Duolingo \cite{duolingo}, servindo de motivação para que o usuário avance nos seus estudos providos pela plataforma.
+
+\section{Acessibilidade}
+Amplamente estudada ao longo de nosso curso de Informática aplicada a Educação, vimos que acessibilidade nos aplicativos de hoje em dia é de suma importância. Vimos que uma parte significativa de usuários possui alguma necessidade especial quando se trata de acessibilidade, que deve ser tratada e considerada por parte dos desenvolvedores na hora da concepção de um aplicativo. Essa questão amplia-se para a discussão de inclusão social, e a importância e o dever social que temos em trazer as inovações tecnológicas pra perto de quem é portador de necessidades especiais.
+
+Grandes empresas desenvolvedoras de plataformas, como a Google e a Apple, disponibilizam alguns recursos nativos que facilitam a implementação de recursos de acessibilidade. Alguns dentre os que projetamos pra estarem dentro do aplicativo, que seria de fácil implementação, seriam:
+
+\begin{itemize}
+	\item Inversão de cores: facilita a visualização por daltônicos
+	\item Aumento do tamanho da fonte: facilita a visualização por pessoas com deficiências visuais
+\end{itemize}
 
 \section{Processo de Software}
 
@@ -64,9 +87,9 @@ O modelo de processo evolucionário, é uma abordagem interativa, onde é possí
 	\item Prototipação: Considerando o aumento nos custos para o desenvolvimento de softwares e o crescente número de sistemas construídos que falharam em satisfazer as necessidades dos clientes, as organizaçõe estão utilizando cada vez mais a prototipação. A prototipação é  uma implementação parcial de um sistema que serve para que clientes e desenvolvedores aprendam mais sobre o produto final, ou seja, possibilita uma melhor compreensão das necessidades que devem ser atendidas. Um protótipo permite que clientes avaliem o que já foi desenvolvido até o momento e forneçam um retorno (feedback) que servirá para aprimorar os requisitos até que seja alcançado o software final \cite{davis1992operational}. 
 \end{itemize}
 
-\section{Prototipação do e-DesignPatterns}
+\section{Prototipação do eDesignPatterns}
 
-O processo de prototipação do e-DesignPatterns passou por 4 etapas:
+O processo de prototipação do eDesignPatterns passou por 4 etapas:
 
 \begin{enumerate}
 	\item Brainstorming: Nessa primeira etapa o grupo de desenvolvimento se reuniu e fez o leventamento de todas as idéias para o software. Além do levantamento de requisitos, foram tratadas questões de design, estratégias de implementação, delagação de tarefas, roteiro de desenvovimentos, metas, público alvo e ferramentas a serem utilizadas. 
@@ -78,7 +101,7 @@ O processo de prototipação do e-DesignPatterns passou por 4 etapas:
 
 \section{Ferramentas Utilizadas}
 
-As seguintes ferramentas foram utilizadas no projeto do e-DesignPatterns, tanto para a prototipação do aplicativo como para comunicação e organização.
+As seguintes ferramentas foram utilizadas no projeto do eDesignPatterns, tanto para a prototipação do aplicativo como para comunicação e organização.
 
 \subsection{Slack}
 Slack \cite{slack} é um ferramenta colaborativa que permite a comunicação entre usuários de um grupo (time) de maneira fácil e interessante. Para utilizar a plataforma basta criar um time e convidar outros participantes para compo-lo. Alem da comunicação por mensagens em tempo real a ferramenta também permite a criação de canais que podem ser utilizados para que os usuários do time tratem de assuntos diferentes. Diversas outras funcionalidades são oferecidas pela plataforma, uma muito interessante é a possibilidade da integração com outras ferramentas, como o gitHub e o Marvel.  A ferramenta também oferece notificações instantâneas sobre atividades realizadas no grupo, permite mensagens privadas, compartilhamento de arquivos entre outros funcionalidades.
