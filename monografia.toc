@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.0.1}Criacional}{5}{subsection.2.0.1}
 \contentsline {subsection}{\numberline {2.0.2}Estrutural}{5}{subsection.2.0.2}
 \contentsline {subsection}{\numberline {2.0.3}Comportamental}{6}{subsection.2.0.3}
-\contentsline {chapter}{\numberline {3}Plataformas Q\&A}{8}{chapter.3}
+\contentsline {chapter}{\numberline {3}Q\&A Platforms}{8}{chapter.3}
 \contentsline {section}{\numberline {3.1}Breve Hist\IeC {\'o}rico}{8}{section.3.1}
 \contentsline {section}{\numberline {3.2}Estrat\IeC {\'e}gias e caracter\IeC {\'\i }sticas}{9}{section.3.2}
 \contentsline {section}{\numberline {3.3}StackExchange}{10}{section.3.3}
@@ -20,20 +20,23 @@
 \contentsline {section}{\numberline {4.1} Motiva\IeC {\c c}\IeC {\~a}o}{12}{section.4.1}
 \contentsline {section}{\numberline {4.2}Descri\IeC {\c c}\IeC {\~a}o do Aplicativo}{13}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Core Features}{13}{subsection.4.2.1}
-\contentsline {subsubsection}{Platafoma Q\&A}{13}{section*.6}
-\contentsline {subsubsection}{Tags}{13}{section*.7}
-\contentsline {subsubsection}{Reputa\IeC {\c c}\IeC {\~a}o}{13}{section*.8}
-\contentsline {subsection}{\numberline {4.2.2}Features desej\IeC {\'a}veis}{13}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Processo de Software}{13}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Modelo Evolucion\IeC {\'a}rio}{14}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}Prototipa\IeC {\c c}\IeC {\~a}o do e-DesignPatterns}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Ferramentas Utilizadas}{15}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Slack}{15}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Git e GitHub}{16}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}Figma}{16}{subsection.4.5.3}
-\contentsline {subsection}{\numberline {4.5.4}Marvel}{16}{subsection.4.5.4}
-\contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{16}{section.4.6}
-\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{17}{section.5.1}
-\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{18}{chapter.6}
-\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{18}{subsection.6.0.1}
+\contentsline {subsubsection}{Platafoma Q\&A}{14}{section*.6}
+\contentsline {subsubsection}{Tags}{14}{section*.7}
+\contentsline {subsubsection}{Reputa\IeC {\c c}\IeC {\~a}o e Rating}{14}{section*.8}
+\contentsline {subsubsection}{Conte\IeC {\'u}do de Design Patterns}{14}{section*.9}
+\contentsline {subsection}{\numberline {4.2.2}Features desej\IeC {\'a}veis}{15}{subsection.4.2.2}
+\contentsline {subsubsection}{Submiss\IeC {\~a}o de conte\IeC {\'u}do por usu\IeC {\'a}rios comuns}{15}{section*.10}
+\contentsline {subsubsection}{Exerc\IeC {\'\i }cios interativos sobre o conte\IeC {\'u}do}{15}{section*.11}
+\contentsline {section}{\numberline {4.3}Processo de Software}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Modelo Evolucion\IeC {\'a}rio}{15}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}Prototipa\IeC {\c c}\IeC {\~a}o do e-DesignPatterns}{16}{section.4.4}
+\contentsline {section}{\numberline {4.5}Ferramentas Utilizadas}{17}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Slack}{17}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Git e GitHub}{17}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Figma}{17}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Marvel}{17}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Telas e suas funcionalidades}{18}{section.4.6}
+\contentsline {chapter}{\numberline {5}Avalia\IeC {\c c}\IeC {\~a}o}{19}{chapter.5}
+\contentsline {section}{\numberline {5.1}Ficha de Avalia\IeC {\c c}\IeC {\~a}o de Software Educacional}{19}{section.5.1}
+\contentsline {chapter}{\numberline {6}Conclus\IeC {\~a}o}{20}{chapter.6}
+\contentsline {subsection}{\numberline {6.0.1}Trabalhos Futuros}{20}{subsection.6.0.1}
